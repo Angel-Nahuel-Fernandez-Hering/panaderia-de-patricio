@@ -1,0 +1,84 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-image: url(/imgpanaderia/fondo2.jpg);
+}
+nav {
+  font-family: "Jost", sans-serif;
+  font-family: "Old Standard TT", serif;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+.titulo {
+  justify-content: center;
+}
+#navbarSupportedContent {
+  justify-content: flex-end;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.redes {
+  display: flex;
+  justify-content: flex-end;
+}
+
+i {
+  margin-left: 1rem;
+  margin: 0 2rem 0 0;
+}
+
+footer {
+  background-color: black;
+  border-style: inset;
+  display: flex;
+  justify-content: center;
+  color: ghostwhite;
+  width: 100%;
+}
+
+footer p {
+  display: flex;
+  align-items: end;
+  margin-bottom: 0;
+}
+
+/* Esto Pertenece a los formularios */
+.form-select {
+  width: 10rem;
+}
+.form-control {
+  width: 70%;
+}
+.form-check-label {
+  background-color: aliceblue;
+}
+.form-label {
+  background-color: aliceblue;
+}
+.col-form-label {
+  background-color: aliceblue;
+}
+.formulario {
+  margin: 2rem 0rem 0rem 2rem;
+}
+.row {
+  margin: 0;
+}
+/* Esto Pertenece a Productos */
+
+.d-item {
+  height: 500px;
+}
+.d-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
