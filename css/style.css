@@ -100,20 +100,12 @@ footer p {
   margin: 2rem;
 }
 .empresa {
-  width: 12rem;
+  width: 12rem;3
+  background-color: red;
 }
 .sub {
   width: 8rem;
 }
-
-.empresa {
-  background-color: red;
-}
-
-.sub {
-  background-color: red;
-}
-
 .lorem {
   background-color: darkorange;
 }
