@@ -82,3 +82,38 @@ footer p {
   object-fit: cover;
   filter: brightness(0.6);
 }
+
+/* Page Nosotros */
+.contenido {
+  display: flex;
+  justify-content: flex-start;
+}
+.compañeros {
+  display: flex;
+  justify-content: center;
+}
+.imgempresa {
+  max-width: 1000px;
+  width: 90%;
+}
+.titulillo {
+  margin: 2rem;
+}
+.empresa {
+  width: 12rem;
+}
+.sub {
+  width: 8rem;
+}
+
+h4 {
+  background-color: red;
+}
+
+.sub {
+  background-color: red;
+}
+
+.lorem {
+  background-color: darkorange;
+}
