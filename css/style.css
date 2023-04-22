@@ -3,7 +3,7 @@
   margin: 0%;
 }
 body {
-  background-image: url(/imgpanaderia/fondo2.jpg);
+  background-image: url(../imgpanaderia/fondo2.jpg);
 }
 nav {
   font-family: "Jost", sans-serif;
@@ -106,7 +106,7 @@ footer p {
   width: 8rem;
 }
 
-h4 {
+.empresa {
   background-color: red;
 }
 
