@@ -1,0 +1,23 @@
+nav {
+  font-family: "Jost", sans-serif;
+  font-family: "Old Standard TT", serif;
+  .logo {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    transition: all 2s;
+    .logo:hover {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  .titulo {
+    justify-content: center;
+  }
+  #navbarSupportedContent {
+    justify-content: flex-end;
+  }
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+}

@@ -1,38 +1,40 @@
+@charset "UTF-8";
 * {
   padding: 0%;
   margin: 0%;
 }
+
 body {
   background-image: url(../imgpanaderia/fondo2.jpg);
 }
+
 nav {
   font-family: "Jost", sans-serif;
   font-family: "Old Standard TT", serif;
 }
-
-.navbar-collapse {
-  flex-grow: 0;
-}
-.titulo {
-  justify-content: center;
-}
-#navbarSupportedContent {
-  justify-content: flex-end;
-}
-
-.logo {
+nav .logo {
+  display: flex;
   width: 100px;
   height: 100px;
+  transition: all 2s;
+}
+nav .logo .logo:hover {
+  width: 300px;
+  height: 300px;
+}
+nav .titulo {
+  justify-content: center;
+}
+nav #navbarSupportedContent {
+  justify-content: flex-end;
+}
+nav .navbar-collapse {
+  flex-grow: 0;
 }
 
 .redes {
   display: flex;
-  justify-content: flex-end;
-}
-
-i {
-  margin-left: 1rem;
-  margin: 0 2rem 0 0;
+  padding: 5rem;
 }
 
 footer {
@@ -42,70 +44,64 @@ footer {
   justify-content: center;
   color: ghostwhite;
   width: 100%;
+  align-items: flex-end;
 }
 
-footer p {
-  display: flex;
-  align-items: end;
-  margin-bottom: 0;
-}
-
-/* Esto Pertenece a los formularios */
-.form-select {
-  width: 10rem;
-}
-.form-control {
-  width: 70%;
-}
-.form-check-label {
-  background-color: aliceblue;
-}
-.form-label {
-  background-color: aliceblue;
-}
-.col-form-label {
-  background-color: aliceblue;
-}
 .formulario {
   margin: 2rem 0rem 0rem 2rem;
 }
-.row {
+.formulario .row {
   margin: 0;
 }
-/* Esto Pertenece a Productos */
+.formulario .row .form-label {
+  background-color: aliceblue;
+}
+.formulario .row .form-control {
+  width: 70%;
+}
+.formulario .col-form-label {
+  background-color: aliceblue;
+}
+.formulario .form-check-label {
+  background-color: aliceblue;
+}
+.formulario .form-select {
+  width: 10rem;
+}
 
-.d-item {
+.contenido {
+  display: flex;
+  justify-content: flex-start;
+}
+.contenido .titulillo {
+  margin: 2rem;
+}
+.contenido .titulillo .empresa {
+  width: 12rem;
+  background-color: red;
+}
+.contenido .titulillo .lorem {
+  background-color: darkorange;
+}
+.contenido .titulillo .sub {
+  width: 8rem;
+}
+.contenido .compañeros {
+  display: flex;
+  justify-content: center;
+}
+.contenido .compañeros .imgempresa {
+  max-width: 1000px;
+  width: 90%;
+}
+
+.carousel-inner .d-item {
   height: 500px;
 }
-.d-img {
+.carousel-inner .d-img {
   height: 100%;
   object-fit: cover;
   filter: brightness(0.6);
 }
 
-/* Page Nosotros */
-.contenido {
-  display: flex;
-  justify-content: flex-start;
-}
-.compañeros {
-  display: flex;
-  justify-content: center;
-}
-.imgempresa {
-  max-width: 1000px;
-  width: 90%;
-}
-.titulillo {
-  margin: 2rem;
-}
-.empresa {
-  width: 12rem;3
-  background-color: red;
-}
-.sub {
-  width: 8rem;
-}
-.lorem {
-  background-color: darkorange;
-}
+/*# sourceMappingURL=style.css.map */

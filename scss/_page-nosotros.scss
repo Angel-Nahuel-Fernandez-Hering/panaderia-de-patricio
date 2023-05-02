@@ -1,0 +1,26 @@
+.contenido {
+  display: flex;
+  justify-content: flex-start;
+  .titulillo {
+    margin: 2rem;
+    .empresa {
+      width: 12rem;
+      background-color: red;
+    }
+    .lorem {
+      background-color: darkorange;
+    }
+    .sub {
+      width: 8rem;
+      $fondo-red: background-color red;
+    }
+  }
+  .compañeros {
+    display: flex;
+    justify-content: center;
+    .imgempresa {
+      max-width: 1000px;
+      width: 90%;
+    }
+  }
+}

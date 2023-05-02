@@ -1,0 +1,21 @@
+.formulario {
+  margin: 2rem 0rem 0rem 2rem;
+  .row {
+    margin: 0;
+    .form-label {
+      background-color: aliceblue;
+    }
+    .form-control {
+      width: 70%;
+    }
+  }
+  .col-form-label {
+    background-color: aliceblue;
+  }
+  .form-check-label {
+    background-color: aliceblue;
+  }
+  .form-select {
+    width: 10rem;
+  }
+}
