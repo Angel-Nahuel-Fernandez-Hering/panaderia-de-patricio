@@ -3,17 +3,17 @@
   .row {
     margin: 0;
     .form-label {
-      background-color: aliceblue;
+      background-color: $color6;
     }
     .form-control {
       width: 70%;
     }
   }
   .col-form-label {
-    background-color: aliceblue;
+    background-color: $color6;
   }
   .form-check-label {
-    background-color: aliceblue;
+    background-color: $color6;
   }
   .form-select {
     width: 10rem;

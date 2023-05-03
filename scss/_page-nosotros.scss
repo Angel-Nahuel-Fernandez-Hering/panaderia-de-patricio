@@ -5,14 +5,14 @@
     margin: 2rem;
     .empresa {
       width: 12rem;
-      background-color: red;
+      background-color: $coloruno;
     }
     .lorem {
-      background-color: darkorange;
+      background-color: $color2;
     }
     .sub {
       width: 8rem;
-      $fondo-red: background-color red;
+      background-color: $coloruno;
     }
   }
   .compañeros {

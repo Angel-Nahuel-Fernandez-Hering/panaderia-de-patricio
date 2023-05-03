@@ -85,6 +85,7 @@ footer {
 }
 .contenido .titulillo .sub {
   width: 8rem;
+  background-color: red;
 }
 .contenido .compañeros {
   display: flex;

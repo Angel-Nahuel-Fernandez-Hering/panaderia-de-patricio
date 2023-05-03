@@ -3,11 +3,11 @@
   padding: 5rem;
 }
 footer {
-  background-color: black;
+  background-color: $color4;
   border-style: inset;
   display: flex;
   justify-content: center;
-  color: ghostwhite;
+  color: $color5;
   width: 100%;
   align-items: flex-end;
 }
