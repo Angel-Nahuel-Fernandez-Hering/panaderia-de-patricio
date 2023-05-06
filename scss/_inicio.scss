@@ -1,0 +1,14 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  .subtitulo {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  .youtube {
+    display: flex;
+    justify-items: center;
+    align-items: flex-end;
+  }
+}

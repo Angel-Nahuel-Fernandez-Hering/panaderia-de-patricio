@@ -1,13 +1,13 @@
 .redes {
-  display: flex;
-  padding: 5rem;
+  @include redes;
+  .fa-brands {
+    @include emoti;
+    background-color: rgb(148, 247, 214);
+  }
 }
 footer {
+  @include flex-justify-content-aling-item;
   background-color: $color4;
   border-style: inset;
-  display: flex;
-  justify-content: center;
   color: $color5;
-  width: 100%;
-  align-items: flex-end;
 }

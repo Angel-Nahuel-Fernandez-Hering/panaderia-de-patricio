@@ -1,5 +1,6 @@
 .formulario {
   margin: 2rem 0rem 0rem 2rem;
+  min-height: calc(100vh - 290px);
   .row {
     margin: 0;
     .form-label {
@@ -17,5 +18,8 @@
   }
   .form-select {
     width: 10rem;
+  }
+  .texto {
+    padding-right: 2rem;
   }
 }

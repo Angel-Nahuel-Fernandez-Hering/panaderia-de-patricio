@@ -1,0 +1,20 @@
+@mixin flex-justify-content-aling-item {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+@mixin emoti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+}
+
+@mixin redes {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
