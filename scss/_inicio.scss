@@ -1,14 +1,18 @@
-.contenedor {
+.subtitulo {
   display: flex;
   justify-content: center;
-  .subtitulo {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-  }
-  .youtube {
-    display: flex;
-    justify-items: center;
-    align-items: flex-end;
-  }
+  padding: 1rem;
+}
+.masitas {
+  display: flex;
+  justify-content: center;
+}
+.youtube {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.video {
+  display: flex;
+  justify-content: center;
 }

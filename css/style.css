@@ -34,7 +34,7 @@ nav .navbar-collapse {
 
 .redes {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding: 2rem;
 }
 .redes .fa-brands {
@@ -109,10 +109,15 @@ footer {
   width: 90%;
 }
 
-.carrusel {
-  margin: 3rem;
+#carouselExampleIndicators {
+  padding: 2rem;
 }
-.carrusel #carouselExampleIndicators {
+
+#carouselExampleIndicatorss {
+  padding: 2rem;
+}
+
+#carouselExampleIndicatorsss {
   padding: 2rem;
 }
 
@@ -123,6 +128,28 @@ footer {
   height: 100%;
   object-fit: cover;
   filter: brightness(0.6);
+}
+
+.subtitulo {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.masitas {
+  display: flex;
+  justify-content: center;
+}
+
+.youtube {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
